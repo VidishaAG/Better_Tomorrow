@@ -1,0 +1,67 @@
+/* CARD VIEW */
+
+.card{
+    padding: 10px;
+    width: fit-content;
+    margin : 0 auto;
+    vertical-align: middle;
+    background-color: #F2F2F2;
+    border-radius:5px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 5px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:400px;
+}
+.doFlex{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    border-color: #96dbe2;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    background-color: #1ab188;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+    width: 30%;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-image: linear-gradient(to right, #7aaa86, #76a9af);
+}
+.comment{
+    width: 20%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title h2{
+    text-align: center;
+}
+.card .nameAndProfile{
+    display: inline-flex;
+}
+.card .nameAndProfile span{
+    color: black;
+    margin: auto 0;
+    padding-left: 10px;
+    box-shadow: 2px;
+    font-size: 15px;
+}
+.cardBody{
+    font-size: 15px;
+    padding: 3px;
+}
+.votesAndComments{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}

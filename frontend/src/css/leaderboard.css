@@ -1,0 +1,108 @@
+/* // Variables */
+:root{
+  --brand-primary: #11155C;
+  --brand-primary-dark: #1275E6;
+  --brand-secondary: #D9F2F5;
+  --brand-tertiary: #E5674A;
+  --brand-gray: #C7C7C7;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: --brand-primary;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: --brand-secondary;
+}
+.artboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  background-color: --brand-secondary;
+}
+.artboard-accent {
+  display: inline;
+}
+
+.app-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 610px;
+  height: 375px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 32px 44px 0 rgba(0,0,0,0.06);
+  border-radius: 6px;
+}
+.app-logo {
+  width: 100px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  top: -50px;
+  left: 38px;
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.08);
+  border-radius: 6px;
+}
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.app-title {
+  font-size: 22px;
+  position: relative;
+  left: 177px;
+  margin-top: 20px;
+}
+.app-table .app-header {
+    color: --brand-gray;
+    display: flex;
+    position: relative;
+    left: 177px;
+    margin-top: 20px;
+  }
+.app-table .app-row {
+    padding: 6px 41px 6px 41px;
+    border-bottom: 1px solid #F6F6FA;
+  }
+.app-row  .player {
+    display: flex;
+    align-items: center;
+  }
+.player  .rank {
+    width: 57px;
+    color: --brand-secondary;
+    font-size: 60px;
+  }
+  .player .image {
+    height: 57px;
+    width: 57px;
+    background-color: --brand-secondary;
+    border-radius: 50%;
+  }
+  .player  .name {
+    width: 245px;
+    margin-left: 30px;
+  }
+  .player  .team {
+    width: 108px;
+  }
+  .player  .goals {
+    width: 50px;
+    text-align: center;
+  }
